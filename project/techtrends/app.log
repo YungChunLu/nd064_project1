@@ -1,0 +1,12 @@
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [11/Jul/2021 17:46:41] "GET / HTTP/1.1" 200 -
+INFO:app:Someone just browse our website :)
+INFO:werkzeug:127.0.0.1 - - [11/Jul/2021 17:46:52] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jul/2021 17:46:59] "GET /create HTTP/1.1" 200 -
+INFO:app:A new post: a dummy is successfully created.
+INFO:werkzeug:127.0.0.1 - - [11/Jul/2021 17:47:04] "POST /create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Jul/2021 17:47:04] "GET / HTTP/1.1" 200 -
+INFO:app:Article 2020 CNCF Annual Report is retrieved!
+INFO:werkzeug:127.0.0.1 - - [11/Jul/2021 17:47:16] "GET /1 HTTP/1.1" 200 -
+INFO:app:post:11 can not be found :(
+INFO:werkzeug:127.0.0.1 - - [11/Jul/2021 17:47:34] "GET /11 HTTP/1.1" 404 -
